@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "reddit direct images",
+  "description": "extension to view and download images directly from reddit | https://github.com/bakadevops/reddit_direct_images",
+  "version": "1.0",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": [
+    "*://preview.redd.it/*",
+    "*://i.redd.it/*"
+  ],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
