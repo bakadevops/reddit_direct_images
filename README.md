@@ -16,10 +16,10 @@ clone the repository or download zip-archive and unpack it somewhere
 
 ```git clone https://github.com/bakadevops/reddit_direct_images.git```
 
-load the extension in chrome
-open chrome and go to chrome://extensions/.
-enable developer mode (toggle switch in the top-right corner).
-click load unpacked and select the folder where you cloned the repository
+load the extension in chrome  
+open chrome and go to chrome://extensions/  
+enable developer mode (toggle switch in the top-right corner).  
+click load unpacked and select the folder where you cloned the repository  
 
 ## will you publish it on chromewebstore? 
 no. the less I interact with google products and services, the happier I am.
